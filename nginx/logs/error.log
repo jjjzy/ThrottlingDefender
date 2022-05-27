@@ -57,3 +57,1228 @@
 2022/05/20 23:04:14 [emerg] 79112#79112: bind() to 0.0.0.0:8080 failed (98: Address already in use)
 2022/05/20 23:04:14 [emerg] 79112#79112: bind() to 0.0.0.0:8080 failed (98: Address already in use)
 2022/05/20 23:04:14 [emerg] 79112#79112: still could not bind()
+2022/05/20 23:15:05 [emerg] 81916#81916: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/20 23:15:05 [emerg] 81916#81916: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/20 23:15:05 [emerg] 81916#81916: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/20 23:15:05 [emerg] 81916#81916: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/20 23:15:05 [emerg] 81916#81916: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/20 23:15:05 [emerg] 81916#81916: still could not bind()
+2022/05/21 20:51:38 [error] 34194#34194: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:51:46 [error] 34194#34194: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:51:46 [error] 34194#34194: *3 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:51:47 [error] 34194#34194: *4 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:51:47 [error] 34194#34194: *5 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:51:49 [error] 34194#34194: *6 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:51:49 [error] 34194#34194: *7 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:52:25 [emerg] 35712#35712: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:25 [emerg] 35712#35712: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:25 [emerg] 35712#35712: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:25 [emerg] 35712#35712: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:25 [emerg] 35712#35712: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:25 [emerg] 35712#35712: still could not bind()
+2022/05/21 20:52:36 [emerg] 35726#35726: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:36 [emerg] 35726#35726: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:36 [emerg] 35726#35726: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:36 [emerg] 35726#35726: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:36 [emerg] 35726#35726: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:36 [emerg] 35726#35726: still could not bind()
+2022/05/21 20:52:46 [emerg] 35742#35742: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:46 [emerg] 35742#35742: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:46 [emerg] 35742#35742: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:46 [emerg] 35742#35742: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:46 [emerg] 35742#35742: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:52:46 [emerg] 35742#35742: still could not bind()
+2022/05/21 20:53:51 [error] 36213#36213: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:53:52 [error] 36213#36213: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:53:52 [error] 36213#36213: *3 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:47 [error] 36213#36213: *4 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:48 [error] 36213#36213: *5 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:48 [error] 36213#36213: *6 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:49 [error] 36213#36213: *7 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:49 [error] 36213#36213: *8 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:49 [error] 36213#36213: *9 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:50 [error] 36213#36213: *10 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:50 [error] 36213#36213: *11 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:51 [error] 36213#36213: *12 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:51 [error] 36213#36213: *13 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:52 [error] 36213#36213: *14 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:57 [error] 36213#36213: *15 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:58 [error] 36213#36213: *16 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:54:59 [error] 36213#36213: *17 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:56:01 [error] 38490#38490: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:56:02 [error] 38490#38490: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:58:26 [emerg] 39943#39943: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:58:26 [emerg] 39943#39943: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:58:26 [emerg] 39943#39943: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:58:26 [emerg] 39943#39943: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:58:26 [emerg] 39943#39943: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/21 20:58:26 [emerg] 39943#39943: still could not bind()
+2022/05/21 20:58:37 [error] 39950#39950: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:58:37 [error] 39950#39950: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:58:49 [error] 41000#41000: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:58:49 [error] 41000#41000: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:58:57 [error] 41000#41000: *3 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:58:58 [error] 41000#41000: *4 failed to load inlined Lua code: content_by_lua(nginx.conf:38):2: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:59:04 [error] 42074#42074: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:38):3: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:59:05 [error] 42074#42074: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:38):3: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 20:59:28 [emerg] 43111#43111: unexpected "}" in /home/jiazhen/Desktop/ThrottlingDefender/ThrottlingDefender/nginx/conf/nginx.conf:39
+2022/05/21 21:00:07 [error] 44234#44234: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:38):3: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:00:08 [error] 44234#44234: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:38):3: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:00:53 [error] 45318#45318: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:38):3: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:00:54 [error] 45318#45318: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:38):3: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:01:14 [error] 45318#45318: *3 failed to load inlined Lua code: content_by_lua(nginx.conf:38):3: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:01:26 [error] 46386#46386: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:38):5: unexpected symbol near 'local', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:01:27 [error] 46386#46386: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:38):5: unexpected symbol near 'local', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:01:42 [error] 46386#46386: *3 failed to load inlined Lua code: content_by_lua(nginx.conf:38):5: unexpected symbol near 'local', client: 127.0.0.1, server: notes, request: "POST / HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:01:43 [error] 46386#46386: *4 failed to load inlined Lua code: content_by_lua(nginx.conf:38):5: unexpected symbol near 'local', client: 127.0.0.1, server: notes, request: "POST / HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:01:45 [error] 46386#46386: *5 failed to load inlined Lua code: content_by_lua(nginx.conf:38):5: unexpected symbol near 'local', client: 127.0.0.1, server: notes, request: "POST / HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:01:48 [error] 46386#46386: *6 failed to load inlined Lua code: content_by_lua(nginx.conf:38):5: unexpected symbol near 'local', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:08:54 [alert] 49963#49963: worker process 49964 exited on signal 9
+2022/05/21 21:09:13 [alert] 49963#49963: worker process 49965 exited on signal 9
+2022/05/21 21:09:44 [error] 51111#51111: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:31):2: attempt to call global 'echo' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:31): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/21 21:09:45 [error] 51111#51111: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:31):2: attempt to call global 'echo' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:31): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:17:03 [emerg] 9742#9742: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:17:03 [emerg] 9742#9742: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:17:03 [emerg] 9742#9742: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:17:03 [emerg] 9742#9742: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:17:03 [emerg] 9742#9742: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:17:03 [emerg] 9742#9742: still could not bind()
+2022/05/26 19:17:28 [emerg] 9834#9834: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:17:28 [emerg] 9834#9834: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:17:28 [emerg] 9834#9834: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:17:28 [emerg] 9834#9834: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:17:28 [emerg] 9834#9834: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:17:28 [emerg] 9834#9834: still could not bind()
+2022/05/26 19:40:43 [emerg] 17703#17703: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:40:43 [emerg] 17703#17703: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:40:43 [emerg] 17703#17703: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:40:43 [emerg] 17703#17703: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:40:43 [emerg] 17703#17703: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:40:43 [emerg] 17703#17703: still could not bind()
+2022/05/26 19:45:49 [error] 19319#19319: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:42):5: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:42):5: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:46:18 [emerg] 20406#20406: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:46:18 [emerg] 20406#20406: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:46:18 [emerg] 20406#20406: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:46:18 [emerg] 20406#20406: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:46:18 [emerg] 20406#20406: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 19:46:18 [emerg] 20406#20406: still could not bind()
+2022/05/26 19:46:29 [error] 20413#20413: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:34):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:46:29 [error] 20413#20413: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:34):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:46:30 [error] 20413#20413: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:34):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:46:30 [error] 20413#20413: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:34):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:46:30 [error] 20413#20413: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:34):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:46:31 [error] 20413#20413: *6 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:34):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:47:28 [error] 21540#21540: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:47:29 [error] 21540#21540: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:47:30 [error] 21540#21540: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:47:30 [error] 21540#21540: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:13 [error] 21540#21540: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:13 [error] 21540#21540: *6 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:14 [error] 21540#21540: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:14 [error] 21540#21540: *8 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:15 [error] 21540#21540: *9 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:15 [error] 21540#21540: *10 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:15 [error] 21540#21540: *11 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:21 [error] 21540#21540: *12 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:22 [error] 21540#21540: *13 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:47 [error] 21540#21540: *14 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:47 [error] 21540#21540: *15 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:48:47 [error] 21540#21540: *16 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:49:46 [error] 22951#22951: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:35):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:35):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:51:00 [error] 24162#24162: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:34):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:51:01 [error] 24162#24162: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:34):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:51:38 [error] 25251#25251: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):3: module 'socket' not found:
+	no field package.preload['socket']
+	no file '/usr/local/openresty/site/lualib/socket.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket.ljbc'
+	no file '/usr/local/openresty/lualib/socket/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket.lua'
+	no file '/usr/local/openresty/site/lualib/socket/init.lua'
+	no file '/usr/local/openresty/lualib/socket.lua'
+	no file '/usr/local/openresty/lualib/socket/init.lua'
+	no file './socket.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket.lua'
+	no file '/usr/local/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:34):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 19:54:39 [error] 26750#26750: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):3: module 'socket.core' not found:
+	no field package.preload['socket.core']
+	no file '/usr/local/openresty/site/lualib/socket/core.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/core/init.ljbc'
+	no file '/usr/local/openresty/lualib/socket/core.ljbc'
+	no file '/usr/local/openresty/lualib/socket/core/init.ljbc'
+	no file '/usr/local/openresty/site/lualib/socket/core.lua'
+	no file '/usr/local/openresty/site/lualib/socket/core/init.lua'
+	no file '/usr/local/openresty/lualib/socket/core.lua'
+	no file '/usr/local/openresty/lualib/socket/core/init.lua'
+	no file './socket/core.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-beta3/socket/core.lua'
+	no file '/usr/local/share/lua/5.1/socket/core.lua'
+	no file '/usr/local/share/lua/5.1/socket/core/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/core.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/socket/core/init.lua'
+	no file '/usr/local/openresty/site/lualib/socket/core.so'
+	no file '/usr/local/openresty/lualib/socket/core.so'
+	no file './socket/core.so'
+	no file '/usr/local/lib/lua/5.1/socket/core.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket/core.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/site/lualib/socket.so'
+	no file '/usr/local/openresty/lualib/socket.so'
+	no file './socket.so'
+	no file '/usr/local/lib/lua/5.1/socket.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/socket.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:34):3: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:01:48 [error] 29118#29118: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):4: attempt to call field 'tcp' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:34): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:01:49 [error] 29118#29118: *2 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):4: attempt to call field 'tcp' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:34): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:01:49 [error] 29118#29118: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:34):4: attempt to call field 'tcp' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:34): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:08:29 [emerg] 31857#31857: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:08:29 [emerg] 31857#31857: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:08:29 [emerg] 31857#31857: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:08:29 [emerg] 31857#31857: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:08:29 [emerg] 31857#31857: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:08:29 [emerg] 31857#31857: still could not bind()
+2022/05/26 20:11:09 [error] 33293#33293: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.11:53
+2022/05/26 20:11:09 [error] 33293#33293: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.11:53
+2022/05/26 20:11:14 [error] 33293#33293: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.11:53
+2022/05/26 20:11:19 [error] 33293#33293: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.11:53
+2022/05/26 20:11:25 [error] 33293#33293: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.11:53
+2022/05/26 20:11:30 [error] 33293#33293: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.11:53
+2022/05/26 20:11:35 [error] 33293#33293: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.11:53
+2022/05/26 20:12:18 [error] 34550#34550: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.11:53
+2022/05/26 20:12:18 [error] 34550#34550: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.11:53
+2022/05/26 20:12:23 [error] 34550#34550: send() failed (111: Connection refused) while resolving, resolver: 127.0.0.11:53
+2022/05/26 20:18:54 [error] 39532#39532: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:42):12: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:42):12: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:18:55 [error] 39532#39532: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:42):12: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:42):12: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:24:21 [error] 41216#41216: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:42):12: attempt to call field 'send' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:42): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:24:22 [error] 41216#41216: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:42):12: attempt to call field 'send' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:42): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:24:23 [error] 41216#41216: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:42):12: attempt to call field 'send' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:42): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:24:24 [error] 41216#41216: *10 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:42):12: attempt to call field 'send' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:42): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:24:24 [error] 41216#41216: *13 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:42):12: attempt to call field 'send' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:42): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:24:25 [error] 41216#41216: *16 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:42):12: attempt to call field 'send' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:42): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:27:59 [emerg] 42560#42560: unknown directive "require" in /home/jiazhen/Desktop/ThrottlingDefender/ThrottlingDefender/nginx/conf/nginx.conf:27
+2022/05/26 20:28:14 [emerg] 42590#42590: unknown directive "require" in /home/jiazhen/Desktop/ThrottlingDefender/ThrottlingDefender/nginx/conf/nginx.conf:26
+2022/05/26 20:28:16 [emerg] 42592#42592: unknown directive "require" in /home/jiazhen/Desktop/ThrottlingDefender/ThrottlingDefender/nginx/conf/nginx.conf:26
+2022/05/26 20:28:46 [emerg] 42623#42623: "init_by_lua_block" directive is not allowed here in /home/jiazhen/Desktop/ThrottlingDefender/ThrottlingDefender/nginx/conf/nginx.conf:31
+2022/05/26 20:29:48 [emerg] 42806#42806: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:29:48 [emerg] 42806#42806: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:29:48 [emerg] 42806#42806: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:29:48 [emerg] 42806#42806: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:29:48 [emerg] 42806#42806: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:29:48 [emerg] 42806#42806: still could not bind()
+2022/05/26 20:29:59 [error] 42816#42816: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):12: attempt to call field 'send' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:30:00 [error] 42816#42816: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):12: attempt to call field 'send' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:30:00 [error] 42816#42816: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):12: attempt to call field 'send' (a nil value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:43): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:32:54 [error] 44138#44138: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):12: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:43):12: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:32:55 [error] 44138#44138: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):12: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:43):12: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:32:55 [error] 44138#44138: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):12: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:43):12: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:32:56 [error] 44138#44138: *10 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):12: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:43):12: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:32:56 [error] 44138#44138: *13 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):12: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:43):12: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:32:57 [error] 44138#44138: *16 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):12: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:43):12: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:32:58 [error] 44138#44138: *19 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:43):12: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:43):12: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:36:38 [error] 46341#46341: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:36:40 [error] 46341#46341: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:36:42 [error] 46341#46341: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:36:43 [error] 46341#46341: *10 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:36:43 [error] 46341#46341: *13 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:36:44 [error] 46341#46341: *16 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:36:45 [error] 46341#46341: *19 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:36:50 [error] 46341#46341: *22 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:37:17 [error] 47453#47453: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:37:17 [error] 47453#47453: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:37:18 [error] 47453#47453: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:37:18 [error] 47453#47453: *10 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:37:19 [error] 47453#47453: *13 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:37:19 [error] 47453#47453: *16 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:38:55 [error] 48778#48778: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:38:57 [error] 48778#48778: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:38:57 [error] 48778#48778: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:38:58 [error] 48778#48778: *10 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:38:58 [error] 48778#48778: *13 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:38:58 [error] 48778#48778: *16 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:38:59 [error] 48778#48778: *19 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:38:59 [error] 48778#48778: *22 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:38:59 [error] 48778#48778: *25 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:39:00 [error] 48778#48778: *28 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:39:03 [error] 48778#48778: *31 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:39:03 [error] 48778#48778: *34 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:39:04 [error] 48778#48778: *37 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:39:04 [error] 48778#48778: *40 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:39:04 [error] 48778#48778: *43 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: bad argument #1 to 'send' (table expected, got string)
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:39:22 [error] 49979#49979: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:39:22 [error] 49979#49979: *4 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:39:23 [error] 49979#49979: *7 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:46):15: expecting 2 arguments (including the object), but got 1
+stack traceback:
+coroutine 0:
+	[C]: in function 'send'
+	content_by_lua(nginx.conf:46):15: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 20:52:32 [emerg] 61329#61329: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:52:32 [emerg] 61329#61329: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:52:32 [emerg] 61329#61329: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:52:32 [emerg] 61329#61329: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:52:32 [emerg] 61329#61329: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 20:52:32 [emerg] 61329#61329: still could not bind()
+2022/05/26 20:58:36 [error] 63110#63110: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:03:03 [error] 64532#64532: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:03:45 [error] 64532#64532: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:06:01 [error] 66080#66080: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:06:02 [error] 66080#66080: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:06:02 [error] 66080#66080: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:06:03 [error] 66080#66080: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:06:18 [error] 66080#66080: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:06:18 [error] 66080#66080: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:06:44 [error] 67207#67207: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:07:29 [error] 68377#68377: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:07:30 [error] 68377#68377: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:07:31 [error] 68377#68377: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:07:31 [error] 68377#68377: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:07:32 [error] 68377#68377: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:08:01 [error] 68377#68377: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:09:05 [error] 68377#68377: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:11:03 [error] 69996#69996: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:12:13 [error] 71094#71094: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:12:57 [error] 71094#71094: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:12:58 [error] 71094#71094: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:12:59 [error] 71094#71094: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:14:31 [error] 71094#71094: *6 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:18:57 [emerg] 74226#74226: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 21:18:57 [emerg] 74226#74226: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 21:18:57 [emerg] 74226#74226: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 21:18:57 [emerg] 74226#74226: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 21:18:57 [emerg] 74226#74226: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/26 21:18:57 [emerg] 74226#74226: still could not bind()
+2022/05/26 21:19:00 [error] 73161#73161: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:60):28: unexpected symbol near '#', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:19:41 [error] 74299#74299: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:20:29 [error] 74299#74299: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:21:09 [error] 75645#75645: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:21:10 [error] 75645#75645: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:21:11 [error] 75645#75645: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:21:12 [error] 75645#75645: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/26 21:22:23 [error] 77878#77878: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 14:43:17 [error] 5117#5117: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 14:49:09 [error] 5117#5117: *3 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 14:53:49 [error] 9122#9122: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:01:04 [error] 9122#9122: *3 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:02:33 [error] 11009#11009: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:04:10 [error] 11009#11009: *3 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:14:51 [error] 13198#13198: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:14:58 [error] 13198#13198: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:15:59 [error] 13198#13198: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:16:00 [error] 13198#13198: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:16:01 [error] 13198#13198: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:16:40 [error] 13198#13198: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:17:58 [error] 13198#13198: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:23:05 [error] 15358#15358: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:23:06 [error] 15358#15358: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:23:07 [error] 15358#15358: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:23:59 [error] 15358#15358: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:29:02 [error] 17131#17131: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:30:45 [error] 18410#18410: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:56):10: attempt to index local 'sock' (a number value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:56): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:31:26 [error] 19560#19560: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:31:26 [error] 19560#19560: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:55):6: connection refused
+stack traceback:
+coroutine 0:
+	[C]: in function 'assert'
+	content_by_lua(nginx.conf:55):6: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:31:37 [error] 20611#20611: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:31:37 [error] 20611#20611: *1 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:55):6: connection refused
+stack traceback:
+coroutine 0:
+	[C]: in function 'assert'
+	content_by_lua(nginx.conf:55):6: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:31:39 [error] 20611#20611: *3 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:31:39 [error] 20611#20611: *3 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:55):6: connection refused
+stack traceback:
+coroutine 0:
+	[C]: in function 'assert'
+	content_by_lua(nginx.conf:55):6: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:31:52 [error] 20611#20611: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:55):10: attempt to index global 'sock' (a number value)
+stack traceback:
+coroutine 0:
+	content_by_lua(nginx.conf:55): in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:34:43 [error] 21813#21813: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:35:30 [error] 23184#23184: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:35:32 [error] 23184#23184: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:35:37 [error] 23184#23184: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:35:38 [error] 23184#23184: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:35:39 [error] 23184#23184: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:37:22 [error] 24466#24466: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:38:05 [error] 24466#24466: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:38:06 [error] 24466#24466: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:38:06 [error] 24466#24466: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:38:06 [error] 24466#24466: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:38:07 [error] 24466#24466: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:38:26 [error] 24466#24466: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:39:16 [error] 24466#24466: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:39:17 [error] 24466#24466: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
