@@ -2,7 +2,10 @@ package org.example;
 
 import org.apache.commons.io.IOUtils;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
+import java.io.PrintWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.sql.SQLOutput;
@@ -25,7 +28,7 @@ public class DefenderServer {
 
     private static class DefenderClientHandler extends Thread {
         private Socket clientSocket;
-        private BufferedWriter out;
+        private PrintWriter out;
         private BufferedReader in;
 
         public DefenderClientHandler(Socket socket) {
@@ -34,15 +37,14 @@ public class DefenderServer {
 
         public void run() {
             try {
-                out = new BufferedWriter(new OutputStreamWriter(clientSocket.getOutputStream()));
+                out = new PrintWriter(clientSocket.getOutputStream(), true);
                 in = new BufferedReader(
                         new InputStreamReader(clientSocket.getInputStream()));
 
                 String inputLine;
-                while ((inputLine = in.readLine()) != null) {
-                    out.write("yoyooy");
-                    out.newLine();
-                    System.out.println("hi" + inputLine);
+                if ((inputLine = in.readLine()) != null) {
+                    out.println("true1");
+                    System.out.println("hi " + inputLine);
                 }
             } catch (Exception exception) {
                 System.out.println(exception.getMessage());
@@ -55,48 +57,23 @@ public class DefenderServer {
     }
 
     public static void main(String[] args) throws Exception {
-//        DefenderServer server = new DefenderServer();
-//        server.start(6666);
-        ServerSocket server = null;
-        Socket client = null;
-        PrintStream out = null;
-        BufferedReader buf = null;
-        server = new ServerSocket(6666);
-        client = server.accept();
-        buf = new BufferedReader(
-                new InputStreamReader(client
-                        .getInputStream()));
-        out = new PrintStream(
-                client.getOutputStream());
-        String str = buf.readLine();
-        out.println("reponse from server: "+str);
-        System.out.println("HELLO"+str);
-        out.close();
-        client.close();
-
-
-
-
-
-
-//
-//
-//        try (ServerSocket server = new ServerSocket(6666);
-//             Socket client = server.accept();
-//             BufferedReader inFromClient = new BufferedReader(new InputStreamReader(client.getInputStream()));
-//             BufferedWriter outToClient = new BufferedWriter(new OutputStreamWriter(client.getOutputStream()))) {
-//
-//            String in = inFromClient.readLine(), out;
-//            System.out.println(in);
-//            while(in != null){
-//                String out1 = in + " from server" + "\n";
-//                outToClient.write(out1);
-////                outToClient.newLine();
-////                outToClient.flush();
-//                in = inFromClient.readLine();
-//            }
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
+        DefenderServer server = new DefenderServer();
+        server.start(6666);
+//        ServerSocket server = null;
+//        Socket client = null;
+//        PrintStream out = null;
+//        BufferedReader buf = null;
+//        server = new ServerSocket(6666);
+//        client = server.accept();
+//        buf = new BufferedReader(
+//                new InputStreamReader(client
+//                        .getInputStream()));
+//        out = new PrintStream(
+//                client.getOutputStream());
+//        String str = buf.readLine();
+//        out.println("Echo:"+str);
+//        System.out.println("HELLO"+str);
+//        out.close();
+//        client.close();
     }
 }

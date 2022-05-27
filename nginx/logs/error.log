@@ -1282,3 +1282,74 @@ coroutine 0:
 2022/05/27 15:38:26 [error] 24466#24466: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
 2022/05/27 15:39:16 [error] 24466#24466: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
 2022/05/27 15:39:17 [error] 24466#24466: *1 connect() failed (111: Connection refused), client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:45:54 [error] 24466#24466: *21 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 15:47:43 [error] 24466#24466: *23 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 16:58:27 [error] 41158#41158: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:69):10: unexpected symbol near '$', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:04:42 [emerg] 47163#47163: is duplicate in /home/jiazhen/Desktop/ThrottlingDefender/ThrottlingDefender/nginx/conf/nginx.conf:78
+2022/05/27 17:05:26 [emerg] 48248#48248: is duplicate in /home/jiazhen/Desktop/ThrottlingDefender/ThrottlingDefender/nginx/conf/nginx.conf:78
+2022/05/27 17:05:34 [emerg] 48294#48294: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/27 17:05:34 [emerg] 48294#48294: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/27 17:05:34 [emerg] 48294#48294: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/27 17:05:34 [emerg] 48294#48294: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/27 17:05:34 [emerg] 48294#48294: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/27 17:05:34 [emerg] 48294#48294: still could not bind()
+2022/05/27 17:07:13 [emerg] 51503#51503: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/27 17:07:13 [emerg] 51503#51503: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/27 17:07:13 [emerg] 51503#51503: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/27 17:07:13 [emerg] 51503#51503: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/27 17:07:13 [emerg] 51503#51503: bind() to 0.0.0.0:8080 failed (98: Address already in use)
+2022/05/27 17:07:13 [emerg] 51503#51503: still could not bind()
+2022/05/27 17:09:42 [emerg] 54921#54921: unexpected "}" in /home/jiazhen/Desktop/ThrottlingDefender/ThrottlingDefender/nginx/conf/nginx.conf:75
+2022/05/27 17:11:09 [error] 56070#56070: *1 lua entry thread aborted: runtime error: attempt to call ngx.redirect after sending out the headers
+stack traceback:
+coroutine 0:
+	[C]: ?, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:11:45 [error] 57147#57147: *1 lua entry thread aborted: runtime error: attempt to call ngx.redirect after sending out the headers
+stack traceback:
+coroutine 0:
+	[C]: ?, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:11:45 [error] 57147#57147: *3 lua entry thread aborted: runtime error: attempt to call ngx.redirect after sending out the headers
+stack traceback:
+coroutine 0:
+	[C]: ?, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:14:09 [error] 58539#58539: *1 lua entry thread aborted: runtime error: attempt to call ngx.redirect after sending out the headers
+stack traceback:
+coroutine 0:
+	[C]: ?, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:14:27 [error] 59590#59590: *1 lua entry thread aborted: runtime error: attempt to call ngx.exec after sending out response headers
+stack traceback:
+coroutine 0:
+	[C]: ?, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:17:46 [error] 64073#64073: *1 failed to load inlined Lua code: content_by_lua(nginx.conf:70):41: '=' expected near 'http', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:17:46 [error] 64073#64073: *2 failed to load inlined Lua code: content_by_lua(nginx.conf:70):41: '=' expected near 'http', client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:22:31 [error] 66960#66960: *1 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/core/exit.lua:52: bad argument #2 to 'ngx_lua_ffi_exit' (cannot convert 'nil' to 'int')
+stack traceback:
+coroutine 0:
+	[C]: in function 'ngx_lua_ffi_exit'
+	/usr/local/openresty/lualib/resty/core/exit.lua:52: in function 'exit'
+	access_by_lua(nginx.conf:70):41: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:22:32 [error] 66960#66960: *3 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/core/exit.lua:52: bad argument #2 to 'ngx_lua_ffi_exit' (cannot convert 'nil' to 'int')
+stack traceback:
+coroutine 0:
+	[C]: in function 'ngx_lua_ffi_exit'
+	/usr/local/openresty/lualib/resty/core/exit.lua:52: in function 'exit'
+	access_by_lua(nginx.conf:70):41: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:23:12 [emerg] 68054#68054: "proxy_pass" directive is not allowed here in /home/jiazhen/Desktop/ThrottlingDefender/ThrottlingDefender/nginx/conf/nginx.conf:20
+2022/05/27 17:23:36 [error] 68087#68087: *1 lua entry thread aborted: runtime error: /usr/local/openresty/lualib/resty/core/exit.lua:52: bad argument #2 to 'ngx_lua_ffi_exit' (cannot convert 'nil' to 'int')
+stack traceback:
+coroutine 0:
+	[C]: in function 'ngx_lua_ffi_exit'
+	/usr/local/openresty/lualib/resty/core/exit.lua:52: in function 'exit'
+	content_by_lua(nginx.conf:70):41: in main chunk, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:25:06 [error] 70355#70355: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:26:36 [error] 73587#73587: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:26:39 [error] 73587#73587: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:26:40 [error] 73587#73587: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:26:41 [error] 73587#73587: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:26:41 [error] 73587#73587: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:28:50 [error] 76890#76890: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:28:51 [error] 76890#76890: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 17:37:38 [emerg] 83125#83125: directive "rewrite_by_lua" is not terminated by ";" in /home/jiazhen/Desktop/ThrottlingDefender/ThrottlingDefender/nginx/conf/nginx.conf:29
+2022/05/27 17:38:15 [emerg] 83224#83224: directive "content_by_lua" is not terminated by ";" in /home/jiazhen/Desktop/ThrottlingDefender/ThrottlingDefender/nginx/conf/nginx.conf:29
+2022/05/27 18:36:02 [error] 92292#92292: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
+2022/05/27 18:36:03 [error] 92292#92292: *1 attempt to set status 403 via ngx.exit after sending out the response status 200, client: 127.0.0.1, server: notes, request: "POST /users/register/ HTTP/1.1", host: "localhost:8080"
