@@ -1,2 +1,8 @@
 rule1.count=1000
 rule1.seconds=300
+
+rule2.count=500
+rule2.seconds=100
+
+rule3.count=10
+rule3.seconds=1
