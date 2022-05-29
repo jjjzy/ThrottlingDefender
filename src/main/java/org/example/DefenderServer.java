@@ -28,16 +28,17 @@ public class DefenderServer {
         private PrintWriter out;
         private BufferedReader in;
 
-        private List<Rule> rules;
-
         private Jedis jedis = new Jedis("localhost", 6380);
+
+        private RuleChecker ruleChecker;
 
         public DefenderClientHandler(Socket socket) throws Exception {
             this.clientSocket = socket;
-            loadRuleCheckers();
+            List<Rule> rules = loadRuleCheckers();
+            ruleChecker = new RuleChecker(rules);
         }
 
-        private void loadRuleCheckers() throws Exception {
+        private List<Rule> loadRuleCheckers() throws Exception {
             PropertiesLoader loader = new PropertiesLoader("application.resources");
             if(!loader.configurationValidation()){
                 throw new InvalidApplicationResourcesException("Invalid Application Resources");
@@ -45,7 +46,7 @@ public class DefenderServer {
 
             Properties config = loader.getConfiguration();
 
-            this.rules = new ArrayList<Rule>();
+            List<Rule> rules = new ArrayList<Rule>();
             for (int i = 1; i < loader.getNumberOfConfigurations() + 1; i++) {
                 String key1 = "rule" + String.valueOf(i) + ".count";
                 int count = Integer.parseInt(config.getProperty(key1));
@@ -53,8 +54,16 @@ public class DefenderServer {
                 String key2 = "rule" + String.valueOf(i) + ".seconds";
                 int second = Integer.parseInt(config.getProperty(key2));
 
-                this.rules.add(new Rule(count, second));
+                String key3 = "rule" + String.valueOf(i) + ".url";
+                String url = config.getProperty(key3);
+
+                System.out.println(count + " " + second + " " + url);
+
+                rules.add(new Rule(count, second, url, i));
             }
+
+            return rules;
+//            this.ruleChecker.setRules(rules);
         }
 
         public void run() {
@@ -73,17 +82,26 @@ public class DefenderServer {
                     System.out.println(ip);
                     System.out.println(url);
 
-                    Date value = new Date();
+                    Calendar cal = Calendar.getInstance();
+                    cal.setTime(new Date());
 
-                    for(int i = 0; i < this.rules.size(); i++){
+                    Date value = cal.getTime();
+
+                    for(int i = 0; i < this.ruleChecker.getRules().size(); i++){
                         String key = ip + "-" + String.valueOf(i + 1);
 
                         jedis.rpush(key, String.valueOf(value));
                     }
 
-//                    List<String> inbox = jedis.lrange(String.valueOf("127.0.0.1-1"), 0, -1);
+                    boolean decision = ruleChecker.check(ip, url);
 
-                    out.println("true1");
+                    if(decision){
+                        out.println("true");
+                    }
+                    else{
+                        out.println("false");
+                    }
+
                 }
             } catch (Exception exception) {
                 System.out.println(exception.getMessage());

@@ -23,7 +23,7 @@ public class PropertiesLoader {
                 .getResourceAsStream(resourceFileName);
         configuration.load(inputStream);
         inputStream.close();
-        this.numberOfConfigurations = configuration.size() / 2;
+        this.numberOfConfigurations = configuration.size() / 3;
     }
 
 
