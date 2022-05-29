@@ -1424,3 +1424,4 @@ coroutine 0:
 2022/05/28 22:56:52 [error] 6229#6229: *122 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/login?username=jerry&password=12345 HTTP/1.1", host: "localhost:8080"
 2022/05/28 22:59:46 [error] 6229#6229: *125 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/login?username=jerry&password=12345 HTTP/1.1", host: "localhost:8080"
 2022/05/28 23:12:24 [error] 32116#32116: *1 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/login?username=jerry&password=12345 HTTP/1.1", host: "localhost:8080"
+2022/05/28 23:15:56 [error] 32116#32116: *17 lua tcp socket read timed out, client: 127.0.0.1, server: notes, request: "POST /users/register HTTP/1.1", host: "localhost:8080"

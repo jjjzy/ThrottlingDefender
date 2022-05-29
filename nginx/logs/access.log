@@ -754,3 +754,6 @@
 127.0.0.1 - - [28/May/2022:23:12:36 -0500] "POST /users/login?username=jerry&password=12345 HTTP/1.1" 200 47 "-" "PostmanRuntime/7.29.0"
 127.0.0.1 - - [28/May/2022:23:12:37 -0500] "POST /users/login?username=jerry&password=12345 HTTP/1.1" 200 47 "-" "PostmanRuntime/7.29.0"
 127.0.0.1 - - [28/May/2022:23:12:37 -0500] "POST /users/login?username=jerry&password=12345 HTTP/1.1" 403 159 "-" "PostmanRuntime/7.29.0"
+127.0.0.1 - - [28/May/2022:23:15:56 -0500] "POST /users/register HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.0"
+127.0.0.1 - - [28/May/2022:23:15:57 -0500] "POST /users/register HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.0"
+127.0.0.1 - - [28/May/2022:23:15:58 -0500] "POST /users/register HTTP/1.1" 403 159 "-" "PostmanRuntime/7.29.0"

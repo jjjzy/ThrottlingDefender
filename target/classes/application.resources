@@ -1,5 +1,5 @@
-rule1.count=1000
-rule1.seconds=300
+rule1.count=2
+rule1.seconds=3
 rule1.url=/users/register
 
 rule2.count=3
